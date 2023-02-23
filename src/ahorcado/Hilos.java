@@ -56,7 +56,7 @@ public class Hilos extends Thread {
 
             // Bienvenida
             output.writeUTF(
-                    "Bienvenido " + user + ", vamos a jugar al ahorcado.\n\r"
+                    "Bienvenid@ " + user + ", vamos a jugar al ahorcado.\n\r"
                             + "\n\rDatos: " + user + "\n\r"
                             + "IP: " + ip + "\n\r"
                             + "Equipo: " + equipo + "\n\r"

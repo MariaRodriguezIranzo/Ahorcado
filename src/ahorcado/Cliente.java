@@ -27,7 +27,7 @@ public class Cliente {
             
             // SO
             output.writeUTF(System.getProperty("os.name"));
-            
+             System.out.println("----------------------------------------------------------");
             // Mensaje
             String bienvenido = input.readUTF();
             System.out.println(bienvenido);
